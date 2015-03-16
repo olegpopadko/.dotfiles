@@ -18,7 +18,7 @@ chsh -s `which zsh`
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 \curl -sSL https://get.rvm.io | bash -s stable
 
-rvm install ruby-2.2.0
+~/.rvm/bin/rvm install ruby-2.2.0
 
 source "$HOME/.rvm/scripts/rvm" && rvm --default use 2.2.0
 
