@@ -109,8 +109,3 @@ noremap <silent> <c-d> :call smooth_scroll#down(10, 0, 4)<CR>
 noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 0, 4)<CR>
 noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 0, 4)<CR>
 nnoremap <CR> :nohlsearch<CR><CR>
-
-" Change cursor shape in different modes (Tmux + iTerm2,
-" for more - http://vim.wikia.com/wiki/Change_cursor_shape_in_different_modes)
-let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
-let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
