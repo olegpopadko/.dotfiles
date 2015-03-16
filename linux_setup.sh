@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo apt-get -y install zsh tmux
+sudo apt-get -y install zsh tmux libpq-dev
 
 cd ~
 wget https://raw.githubusercontent.com/olegpopadko/.dotfiles/master/.tmux.conf
