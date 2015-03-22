@@ -30,3 +30,5 @@ ruby setup.rb
 
 gem install bundler
 
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
