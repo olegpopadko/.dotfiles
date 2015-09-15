@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo apt-get -y install zsh tmux libpq-dev libxml2-dev
+sudo apt-get -y install zsh tmux libpq-dev libxml2-dev libbz2-dev
 
 cd ~
 wget https://raw.githubusercontent.com/olegpopadko/.dotfiles/master/.tmux.conf
