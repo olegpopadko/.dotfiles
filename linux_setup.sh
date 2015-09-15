@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo apt-get -y install zsh tmux libpq-dev
+sudo apt-get -y install zsh tmux libpq-dev libxml2
 
 cd ~
 wget https://raw.githubusercontent.com/olegpopadko/.dotfiles/master/.tmux.conf
@@ -32,3 +32,8 @@ gem install bundler
 
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
+curl -L -O https://github.com/phpbrew/phpbrew/raw/master/phpbrew
+chmod +x phpbrew
+sudo mv phpbrew /usr/bin/phpbrew
+
+echo "source ~/.phpbrew/bashrc" >> ~/.zshrc
